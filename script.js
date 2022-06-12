@@ -40,7 +40,23 @@ console.log(formatDate());
 
 const addNew = (str) => 
   str.indexOf('New!') === 0 ? str : 'New! $(str)';
-
 console.log(addNew('Offers'));
 
 //* alot of these videos - i keep getting the same mistake while trying them such as the $ signs. *//
+
+
+
+var a = 2;
+console.log(a);
+
+var str = "LoveisLove";
+console.log(str);
+
+var ch = '5';
+console.log(ch);
+
+function func() { return (10 * 10);}
+console.log (func());
+
+var a = 5;
+console.log ("the value of a is " + a);
