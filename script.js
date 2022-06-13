@@ -60,3 +60,12 @@ console.log (func());
 
 var a = 5;
 console.log ("the value of a is " + a);
+
+var str = "LoveisLove";
+console.log ("the value of str is " + str);
+
+var ch = '2';
+console.log ("the value of ch is " + ch);
+
+
+
