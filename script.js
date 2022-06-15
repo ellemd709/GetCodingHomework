@@ -67,5 +67,5 @@ console.log ("the value of str is " + str);
 var ch = '2';
 console.log ("the value of ch is " + ch);
 
-
-
+var str = "testing123"
+console.log(str);
