@@ -27,10 +27,10 @@ console.log(getFileExtension('webpack.config.js'));
 
 
 const formatDate = (date = new Date()) => {
-const days = date.getDay() + 1;
+const days = date.getDate();
 const months = date.getMonth() + 1;
 const years = date.getFullYear();
-return ("days"/"months"/"years");
+return (days + "/" + months + "/" + years);
   
 }
 console.log(formatDate());
@@ -40,7 +40,7 @@ console.log(formatDate());
 
 const addNew = (str) => 
   str.indexOf('New!') === 0 ? str : 'New! $(str)';
-console.log(addNew('Offers'));
+console.log(addNew('New!Offers'));
 
 //* alot of these videos - i keep getting the same mistake while trying them such as the $ signs. *//
 
