@@ -69,3 +69,10 @@ console.log ("the value of ch is " + ch);
 
 var str = "testing123"
 console.log(str);
+
+function fun() { return (500+100);}
+    console.log (fun());
+                
+    
+  
+
