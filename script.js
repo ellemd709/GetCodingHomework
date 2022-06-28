@@ -58,6 +58,9 @@ console.log(a);
 var str = "LoveisLove";
 console.log(str);
 
+var str = "SundayFunday";
+console.log(str);
+
 var ch = '5';
 console.log(ch);
 
