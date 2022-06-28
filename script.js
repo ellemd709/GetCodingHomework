@@ -1,9 +1,15 @@
 function greet(name, lastName) {
-console.log('Hello'+ name + '' + lastName);
+  return 'Hello'+ ' '+ name + ' ' + lastName;
   
 }
-greet ('John', 'Smith'); 
-greet ('Mary', 'Smith');
+const y=greet ('Mary', 'Smith');
+console.log(greet('John', 'Smith'))
+console.log(y);
+
+const sum = () => { 
+  return 2;
+};
+console.log(sum()+1);
 
 
 
