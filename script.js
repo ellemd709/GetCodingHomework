@@ -67,16 +67,16 @@ console.log(ch);
 function func() { return (10 * 10);}
 console.log (func());
 
-var a = 5;
+let a = 5;
 console.log ("the value of a is " + a);
 
-var str = "LoveisLove";
+let str = "LoveisLove";
 console.log ("the value of str is " + str);
 
-var ch = '2';
+let ch = '2';
 console.log ("the value of ch is " + ch);
 
-var str = "testing123"
+let str = "testing123"
 console.log(str);
 
 function fun() { return (500+100);}
