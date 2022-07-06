@@ -81,7 +81,28 @@ console.log(test);
 
 function fun() { return (500+100);}
     console.log (fun());
-                
+
+
+
+let key = 50;
+
+function getPasscode(value) {
+
+  let keyGenerator = function() {
+    let key = 5; 
+    console.log(` in keyGenerator: `, key);
+    return key
+    
+  }
+
+  let code = value * keyGenerator();
+  console.log(` in getPasscode: `, key);
+  return code;
+  }
+
+
     
   
+  
+
 
