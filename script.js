@@ -52,16 +52,16 @@ console.log(addNew('New!Offers'));
 
 
 
-var a = 2;
+let a = 2;
 console.log(a);
 
-var str = "LoveisLove";
+let str = "LoveisLove";
 console.log(str);
 
-var str = "SundayFunday";
+let str = "SundayFunday";
 console.log(str);
 
-var ch = '5';
+let ch = '5';
 console.log(ch);
 
 function func() { return (10 * 10);}
