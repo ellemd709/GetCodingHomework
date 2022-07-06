@@ -52,14 +52,14 @@ console.log(addNew('New!Offers'));
 
 
 
-let a = 2;
-console.log(a);
+let x = 2;
+console.log(x);
 
-let str = "LoveisLove";
-console.log(str);
+let love = "LoveisLove";
+console.log(love);
 
-let str = "SundayFunday";
-console.log(str);
+let sun = "SundayFunday";
+console.log(sun);
 
 let ch = '5';
 console.log(ch);
@@ -73,11 +73,11 @@ console.log ("the value of a is " + a);
 let str = "LoveisLove";
 console.log ("the value of str is " + str);
 
-let ch = '2';
-console.log ("the value of ch is " + ch);
+let b = '2';
+console.log ("the value of b is " + b);
 
-let str = "testing123"
-console.log(str);
+let test = "testing123"
+console.log(test);
 
 function fun() { return (500+100);}
     console.log (fun());
